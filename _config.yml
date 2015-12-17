@@ -1,0 +1,59 @@
+# Site wide configuration
+
+title: Cedric De Boom
+locale: en_GB
+description: "Mind, machines, melody & microfilm."
+logo: logo.png
+search: true
+url: http://cedricdeboom.github.io
+#url:
+
+# Jekyll configuration
+
+permalink:   /:categories/:title/
+markdown:    kramdown
+highlighter: pygments
+sass:
+  sass_dir: _sass
+  style: compressed
+gems:
+  - jekyll-sitemap
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..2
+  use_coderay: false
+
+mathjax: true
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md", "vendor"]
+
+
+# Site owner
+owner:
+  name: Cedric De Boom
+  avatar: cedric-profile.png
+  email: cedricdeboom@gmail.com
+  disqus-shortname: cedricdeboom
+  twitter: "cedricdb"
+  facebook: cedricdeboom
+  github: cedricdeboom
+  stackexchange: #http://stackoverflow.com/users/123456/username
+  linkedin: cedricdeboom
+  instagram: cedricdeboom
+  flickr: "12121251@N07"
+  500px: cedricdeboom
+  soundcloud: cedricdeboom
+  tumblr: #username
+  pinterest: #username
+  weibo: #userid
+  google:
+    plus: #username
+    analytics:
+    verify:
+    ad-client:
+    ad-slot:
+  bing-verify:

@@ -1,0 +1,19 @@
+# Site navigation links
+
+- title: About Me
+  url: /about/
+
+- title: Articles
+  url: /articles/
+
+- title: Blog
+  url: /blog/
+
+- title: Academics
+  url: /academics/
+
+- title: Music
+  url: /music/
+
+#- title: Search
+#  url: /search/

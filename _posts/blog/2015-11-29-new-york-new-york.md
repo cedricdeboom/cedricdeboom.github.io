@@ -2,12 +2,13 @@
 layout: post
 title: "New York, New York!"
 excerpt: "Photographic report of my short trip to New York City"
-categories: articles
+categories: blog
 tags: [photography, travel, citytrip]
 comments: true
 share: true
 image:
   feature: new-york-header.jpg
+  credit: Cedric De Boom
 ---
 
 _"If I can make it there, I'll make it anywhere. It's up to you, New York, New York!"_ The theme song of Scorsese's film _New York, New York_ by Frank Sinatra became an instant hit in 1977. The song implies that New York is _the_ place to be. Indeed, in the past, the city has attracted many people, among them (jazz) musicians, fashionistas, businessmen, or just the common guy, all looking to pursue their 'American dream'. It is one of those cities everyone must have visited at least once in their life, there is no way around it. It has been called 'the center of the world' many times, as it houses the United Nations headquarters, one of the main hubs in the financial world, and Times Square, also dubbed 'crossroads of the world'. It is a meeting place for scientists, artists, world leaders and traders. It is this city I will be shortly visiting, for the first time, as a prequel to a scientific conference in Atlantic City afterwards.

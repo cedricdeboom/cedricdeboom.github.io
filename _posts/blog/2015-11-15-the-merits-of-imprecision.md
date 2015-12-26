@@ -2,12 +2,13 @@
 layout: post
 title: "The Merits of Imprecision"
 excerpt: "Short summary about my master's thesis on imprecise probabilities and Hidden Markov Models."
-categories: articles
+categories: blog
 tags: [popular science, university, thesis, paper, markov, probabilities]
 comments: true
 share: true
 image:
   feature: imprecision-header.png
+  credit: Cedric De Boom
 ---
 
 _"Around the morning cumuli will soon arrive, and by noon we expect some drizzle over the west of the country. Luckily this is only for a short period of time: at 5pm things will rapidly clear up."_ That's a daily weather forecast on your favourite radio station. The weather forecaster seems to be very confident in his predictions. After all they are based on computer models which have an enormous amount of computing power. However, these computer models are not always 100 procent exact. What if we would get a completely different weather forecast if we would use a new model only differing slightly from the original model? Wouldn't it be better, in that case, if the forecaster would say to his viewers that there are multiple possibilities for tomorrow's weather?

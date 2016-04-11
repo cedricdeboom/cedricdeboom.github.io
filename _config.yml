@@ -35,7 +35,7 @@ exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.
 # Site owner
 owner:
   name: Cedric De Boom
-  avatar: cedric-profile-2.png
+  avatar: cedric-profile-2.jpg
   email: cedricdeboom@gmail.com
   disqus-shortname: cedricdeboom
   twitter: "cedricdb"

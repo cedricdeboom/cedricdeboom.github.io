@@ -62,7 +62,7 @@ Do you need more evidence that Russia is indeed the only rightful winner of the 
 To finish this post, I want to find out what country has the most 'capacity' to predict the final outcome of the voting, that is, what country reflects the average European opinion. Therefore, for every country, I calculate a simple \\(L_1\\) error function, which reflects how many points the country's vote differs from the final outcome:
 
 \\[
-Error = \sum\_{c \in countries} \left| given\_{c} - final\_{c} \right|
+Error_c = \sum\_{c' \in countries\setminus\\{c\\}} \left| given\_{c'} - final\_{c'} \right|
 \\]
 
 In this formula, the points are given as explained above. We do not take into account the country population as before, we just use the traditional scoring system. First check out only the jury votes; the graph below shows the total error for each country:
@@ -72,7 +72,7 @@ In this formula, the points are given as explained above. We do not take into ac
 	<figcaption>The total error for the jury votes.</figcaption>
 </figure>
 
-Israel scores best, with an error of 35 points; Czech Republic has an error of 86 points. So there is quite a difference between the countries. Note that a high error can also mean that the country votes tactically, by giving points to all countries which it thought would perform bad in the contest! Russia, Ukraine and France have quite a high error, but this is also be due to the fact that these countries have scored high in the total ranking and they cannot vote for themselves... The average error is 59.8 points. Let's take a look at the televote errors:
+Israel scores best, with an error of 35 points; Czech Republic has an error of 86 points. So there is quite a difference between the countries. Note that a high error can also mean that the country votes tactically, by giving points to all countries which it thought would perform bad in the contest. Russia, Ukraine and France have quite a high error, and in the calculation I did not include the voting country! The average error is 59.8 points. Let's take a look at the televote errors:
 
 <figure>
 	<a href="/images/eurovision/tele-err.png"><img src="/images/eurovision/tele-err.png" alt="The total error for the televotes."></a>

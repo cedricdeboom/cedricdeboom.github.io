@@ -90,4 +90,4 @@ The winner is Israel with 32 points error, followed by Latvia with 34 points. At
 
 
 
-[^1]: [http://eurovisionworld.com/?odds=eurovision){:target="_blank"}
+[^1]: [http://eurovisionworld.com/?odds=eurovision](http://eurovisionworld.com/?odds=eurovision){:target="_blank"}

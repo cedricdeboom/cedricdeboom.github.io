@@ -18,7 +18,7 @@ Most of Sony's products provide several interfaces to Spotify, such as Spotify C
  After toying around with the Spotify and soundbar settings, I found that the following three fixes alleviated the Spotify Connect and Chromecast issues (at least for now):
 
 * Use a wired internet (Ethernet) connection instead of a wireless one; this seemed to help a lot, but not all problems were gone.
-* Change the name of your device from something like 'Sony HT-NT5' to just 'Sony' or 'Soundbar'; spaces, dashes and other weird characters can create hiccups in the protocl, as it seams.
+* Change the name of your device from something like 'Sony HT-NT5' to just 'Sony' or 'Soundbar'; spaces, dashes and other weird characters can create hiccups in the protocol, as it seams.
 * Use the Google DNS servers! This was the final fix that got it all working. When setting up a network connection on your Sony gear, set the DNS servers manually to 8.8.8.8 and 8.8.4.4, resp. for primary and secondary DNS servers.
 
 I'll keep this article up-to-date in case I find any other tricks that might help, but for now everything seems to work fine.
